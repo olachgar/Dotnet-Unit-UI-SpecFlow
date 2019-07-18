@@ -2,15 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <RootNamespace>Dotnet_Unit_UI_SpecFlow.UI.Tests</RootNamespace>
+    <RootNamespace>Dotnet_Unit_UI_SpecFlow.xUnit.Tests</RootNamespace>
 
     <IsPackable>false</IsPackable>
+
+    <ApplicationIcon />
+
+    <OutputType>Library</OutputType>
+
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
-    <PackageReference Include="Selenium.Chrome.WebDriver" Version="75.0.0" />
-    <PackageReference Include="Selenium.WebDriver" Version="3.14.0" />
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.225" />
     <PackageReference Include="SpecFlow.xUnit" Version="3.0.225" />
     <PackageReference Include="xunit" Version="2.4.0" />
@@ -18,28 +22,24 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Features\SpecFlowFeature2.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>SpecFlowFeature2.feature.cs</LastGenOutput>
+    <None Update="Login.feature">
+      <Generator>TechTalk.SpecFlow</Generator>
+      <LastGenOutput>Login.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="Features\Login.feature.cs">
+    <Compile Update="Features\Calculator.feature.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Login.feature</DependentUpon>
+      <DependentUpon>Calculator.feature</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <SpecFlowFeatureFiles Update="Features\Login.feature">
+    <SpecFlowFeatureFiles Update="Features\Calculator.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>Login.feature.cs</LastGenOutput>
+      <LastGenOutput>Calculator.feature.cs</LastGenOutput>
     </SpecFlowFeatureFiles>
   </ItemGroup>
 
