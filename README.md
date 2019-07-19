@@ -2,6 +2,6 @@
 
 Dotnet-Unit-UI-SpecFlow
 
-![SpecFlow](https://jfiaffe.files.wordpress.com/2015/07/specflow-logo.png =50x50)
+![SpecFlow](https://jfiaffe.files.wordpress.com/2015/07/specflow-logo.png)
 
 ![ScreenShot](https://flood.io/wp-content/uploads/2015/05/selenium-logo-DB9103D7CF-seeklogo.com_.png)
