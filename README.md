@@ -4,4 +4,4 @@ Dotnet-Unit-UI-SpecFlow
 
 ![SpecFlow](https://jfiaffe.files.wordpress.com/2015/07/specflow-logo.png =50x50)
 
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+![ScreenShot](https://raw.githubusercontent.com/i-saumitra/Voice-controlled-MP3-Player/master/screenshot.jpg)
