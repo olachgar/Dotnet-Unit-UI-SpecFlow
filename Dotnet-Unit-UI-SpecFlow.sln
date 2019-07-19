@@ -5,11 +5,9 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet-Unit-UI-SpecFlow.UI.Tests", "Dotnet-Unit-UI-SpecFlow.UI.Tests\Dotnet-Unit-UI-SpecFlow.UI.Tests.csproj", "{6A3EEA0D-2B6C-4979-9374-475FB9C3C2D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet-Unit-UI-SpecFlow.Unit.Tests", "Dotnet-Unit-UI-SpecFlow.Unit.Tests\Dotnet-Unit-UI-SpecFlow.Unit.Tests.csproj", "{07D920D5-B7D5-4E0A-B7B7-E583EBD5BAE4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet-Unit-UI-SpecFlow.Web", "Dotnet-Unit-UI-SpecFlow.Web\Dotnet-Unit-UI-SpecFlow.Web.csproj", "{DDE8D010-9DB3-4AC6-8FD6-6DD97039F46E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet-Unit-UI-SpecFlow.xUnit.Tests", "Dotnet-Unit-UI-SpecFlow.xUnit.Tests\Dotnet-Unit-UI-SpecFlow.xUnit.Tests.csproj", "{127254FF-249E-4B46-B550-F7017DC65917}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet-Unit-UI-SpecFlow.xUnit.Tests", "Dotnet-Unit-UI-SpecFlow.xUnit.Tests\Dotnet-Unit-UI-SpecFlow.xUnit.Tests.csproj", "{127254FF-249E-4B46-B550-F7017DC65917}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		{6A3EEA0D-2B6C-4979-9374-475FB9C3C2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A3EEA0D-2B6C-4979-9374-475FB9C3C2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A3EEA0D-2B6C-4979-9374-475FB9C3C2D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07D920D5-B7D5-4E0A-B7B7-E583EBD5BAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07D920D5-B7D5-4E0A-B7B7-E583EBD5BAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07D920D5-B7D5-4E0A-B7B7-E583EBD5BAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07D920D5-B7D5-4E0A-B7B7-E583EBD5BAE4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DDE8D010-9DB3-4AC6-8FD6-6DD97039F46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DDE8D010-9DB3-4AC6-8FD6-6DD97039F46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE8D010-9DB3-4AC6-8FD6-6DD97039F46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
