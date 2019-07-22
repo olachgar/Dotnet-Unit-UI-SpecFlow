@@ -22,6 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Dotnet-Unit-UI-SpecFlow.Web\Dotnet-Unit-UI-SpecFlow.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Login.feature">
       <Generator>TechTalk.SpecFlow</Generator>
       <LastGenOutput>Login.feature.cs</LastGenOutput>
@@ -29,18 +33,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Features\Calculator.feature.cs">
+    <Compile Update="Features\Controllers.feature.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Calculator.feature</DependentUpon>
+      <DependentUpon>Controllers.feature</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <SpecFlowFeatureFiles Update="Features\Calculator.feature">
+    <SpecFlowFeatureFiles Update="Features\Controllers.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>Calculator.feature.cs</LastGenOutput>
+      <LastGenOutput>Controllers.feature.cs</LastGenOutput>
     </SpecFlowFeatureFiles>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
